@@ -1,0 +1,13 @@
+//Menu Set Preferences ( 1.13)
+//
+//
+menuSet -permanent 1 -hotBoxVisible 1 -label "Common" -menuArray { "mainFileMenu", "mainEditMenu", "mainCreateMenu", "mainSelectMenu", "mainModifyMenu", "mainDisplayMenu", "mainWindowMenu" } commonMenuSet;
+menuSet -moveMenuSet commonMenuSet 0;
+menuSet -permanent 0 -hotBoxVisible 1 -label "Modeling" -menuArray { "mainMeshMenu", "mainEditMeshMenu", "mainMeshToolsMenu", "mainMeshDisplayMenu", "mainCurvesMenu", "mainSurfacesMenu", "mainDeformMenu", "mainUVMenu" } modelingMenuSet;
+menuSet -moveMenuSet modelingMenuSet 1;
+menuSet -permanent 0 -hotBoxVisible 1 -label "Rigging" -menuArray { "mainRigSkeletonsMenu", "mainRigSkinningMenu", "mainRigDeformationsMenu", "mainRigConstraintsMenu", "mainRigControlMenu" } riggingMenuSet;
+menuSet -moveMenuSet riggingMenuSet 2;
+menuSet -permanent 0 -hotBoxVisible 1 -label "Animation" -menuArray { "mainKeysMenu", "mainPlaybackMenu", "mainVisualizeMenu", "mainDeformationMenu", "mainConstraintsMenu" } animationMenuSet;
+menuSet -moveMenuSet animationMenuSet 3;
+menuSet -permanent 0 -hotBoxVisible 1 -label "Shading" -menuArray { "mainShadingMenu", "mainRenTexturingMenu", "mainRenderMenu", "mainCartoonMenu" } renderingMenuSet;
+menuSet -moveMenuSet renderingMenuSet 4;

@@ -1,0 +1,22 @@
+//Maya LT Preference 2017 (Release 1)
+//
+//
+evalDeferred("autoLoadPlugin(\"\", \"invertShape\", \"invertShape\")");
+evalDeferred("autoLoadPlugin(\"\", \"mayaHIK\", \"mayaHIK\")");
+evalDeferred("autoLoadPlugin(\"\", \"GamePipeline\", \"GamePipeline\")");
+evalDeferred("autoLoadPlugin(\"\", \"CloudImportExport\", \"CloudImportExport\")");
+evalDeferred("autoLoadPlugin(\"\", \"matrixNodes\", \"matrixNodes\")");
+evalDeferred("autoLoadPlugin(\"\", \"Substance\", \"Substance\")");
+evalDeferred("autoLoadPlugin(\"\", \"OneClick\", \"OneClick\")");
+evalDeferred("autoLoadPlugin(\"\", \"shaderFXPlugin\", \"shaderFXPlugin\")");
+evalDeferred("autoLoadPlugin(\"\", \"Turtle\", \"Turtle\")");
+evalDeferred("autoLoadPlugin(\"\", \"CreativeMarket\", \"CreativeMarket\")");
+evalDeferred("autoLoadPlugin(\"\", \"objExport\", \"objExport\")");
+evalDeferred("autoLoadPlugin(\"\", \"gameFbxExporter\", \"gameFbxExporter\")");
+evalDeferred("autoLoadPlugin(\"\", \"OpenEXRLoader\", \"OpenEXRLoader\")");
+evalDeferred("autoLoadPlugin(\"\", \"Unfold3D\", \"Unfold3D\")");
+evalDeferred("autoLoadPlugin(\"\", \"mayaCharacterization\", \"mayaCharacterization\")");
+evalDeferred("autoLoadPlugin(\"\", \"quatNodes\", \"quatNodes\")");
+evalDeferred("autoLoadPlugin(\"\", \"glslShader\", \"glslShader\")");
+evalDeferred("autoLoadPlugin(\"\", \"meshReorder\", \"meshReorder\")");
+evalDeferred("autoLoadPlugin(\"\", \"modelingToolkit\", \"modelingToolkit\")");
