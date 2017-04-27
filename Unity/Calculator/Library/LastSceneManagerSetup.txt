@@ -1,0 +1,4 @@
+sceneSetups:
+- path: D:/DGM_260_R/DGM260R/Unity/UI/Assets/ui.unity
+  isLoaded: 1
+  isActive: 1

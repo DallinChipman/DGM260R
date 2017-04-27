@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/CalculatorProject/calculator_dgm1600.unity
+  isLoaded: 1
+  isActive: 1
